@@ -1,0 +1,21 @@
+{
+  "name": "password-check-cli",
+  "version": "1.0.0",
+  "description": "- Node version: 14.17\r - Default Port: 8001",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env PORT=8001 ./node_modules/.bin/mocha test --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "jade": "^1.11.0",
+    "mocha": "^10.7.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
